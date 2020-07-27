@@ -1,0 +1,186 @@
+@font-face {
+  font-family: Citrica;
+  src: url(Citrica/Citrica-Regular.ttf);
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+
+}
+
+body {
+
+  line-height: 2;
+  font-size: 2rem;
+  font-family: Citrica;
+  color: #606b43;
+  background-color:  #FFFAF1;
+}
+
+a {
+  text-decoration: none;
+  color: #606b43;
+}
+
+hr {
+  width: 20%;
+  margin: auto;
+  padding: 1px;
+  background-color:  #91a168;
+  border: none
+}
+
+header {
+  margin: 3%;
+}
+
+h3 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav i {
+  font-size: 2.5rem;
+}
+
+.header-nav ul {
+  list-style: none;
+}
+
+.header-nav ul li ul {
+  display: none;
+  flex-direction: column;
+}
+
+.header-nav ul li:hover ul {
+  display: flex;
+}
+
+.header-nav ul li:hover ul li {
+  display: flex;
+  /* justify-content: flex-end; */
+}
+
+.header-main {
+  font-size: 5rem;
+  padding: 10% 0;
+}
+
+.header-main p {
+  font-size: 2.5rem;
+}
+
+.header-main div {
+  text-align: center;
+}
+
+.main-container {
+  margin: 3%;
+}
+
+.text-container {
+  margin: 5% 0;
+}
+
+.sect-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sect-buttons .plant-btn {
+  width: 25%;
+  margin: 2%;
+  display: flex;
+  align-items: center;
+}
+footer {
+  margin: 1% 2%;
+}
+
+.about-container {
+  margin: 5% 3%;
+}
+
+button {
+  padding: 5px;
+  background: white;
+  border: 2px solid #606b43;
+}
+
+
+@media (min-width: 500px) { 
+  h1 {
+    font-size: 6.5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  section h3 {
+    margin: auto;
+  }
+
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+  }
+
+  .right-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+  }
+
+  .sect-buttons{
+    display: none;
+  }
+  
+} 
