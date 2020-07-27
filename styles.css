@@ -56,6 +56,10 @@ a {
   color: #606b43;
 }
 
+button:hover {
+  border-color: #B0ABCA;
+}
+
 hr {
   width: 20%;
   margin: auto;
@@ -169,7 +173,23 @@ h4 {
 }
 
 /********** LANDING PAGE STYLES **********/
+.landing-container {
+  margin: 3%;
+}
 
+.landing-container h3 {
+ margin: 5% 0;
+}
+
+.register-container {
+  text-align: center;
+  margin: 10% 0;
+}
+
+button.register-btn {
+  padding:5%;
+  font-size: 2.5rem;
+}
 
 /********** FOOTER **********/
 
