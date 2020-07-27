@@ -27,12 +27,15 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+/********** MOBILE FIRST DESIGN **********/
+
 * {
   box-sizing: border-box;
   padding:0;
   margin:0;
   max-width: 100%;
 }
+
 
 html {
   font-size: 62.5%;
@@ -75,10 +78,13 @@ h4 {
   text-align: center;
 }
 
+/********** NAV BAR **********/
+
 .header-top {
   display: flex;
   justify-content: space-between;
 }
+
 
 .header-nav i {
   font-size: 2.5rem;
@@ -87,6 +93,8 @@ h4 {
 .header-nav ul {
   list-style: none;
 }
+
+/********** DROP DOWN NAV **********/
 
 .header-nav ul li ul {
   display: none;
@@ -99,8 +107,10 @@ h4 {
 
 .header-nav ul li:hover ul li {
   display: flex;
-  /* justify-content: flex-end; */
 }
+
+
+/********** HEADER **********/
 
 .header-main {
   font-size: 5rem;
@@ -115,6 +125,8 @@ h4 {
   text-align: center;
 }
 
+/********** MAIN CONTENT **********/
+
 .main-container {
   margin: 3%;
 }
@@ -122,6 +134,8 @@ h4 {
 .text-container {
   margin: 5% 0;
 }
+
+/********** MOBILE SECTION BUTTONS **********/
 
 .sect-buttons {
   display: flex;
@@ -134,13 +148,39 @@ h4 {
   display: flex;
   align-items: center;
 }
+
+/********** ABOUT PAGE STYLES **********/
+
+.about-container {
+  margin: 5% 3%;
+  text-align: center;
+}
+
+.about-container p {
+  font-size: 2rem;
+}
+
+.about-container section {
+  margin: 5% 0;
+}
+
+.about-people div {
+  margin: 5% 0;
+}
+
+/********** LANDING PAGE STYLES **********/
+
+
+/********** FOOTER **********/
+
 footer {
   margin: 1% 2%;
 }
 
-.about-container {
-  margin: 5% 3%;
+footer p {
+  font-size: 1.5rem;
 }
+
 
 button {
   padding: 5px;
@@ -181,6 +221,10 @@ button {
 
   .sect-buttons{
     display: none;
+  }
+
+  .about-container p {
+    font-size: 2.5rem;
   }
   
 } 
