@@ -116,15 +116,24 @@ h4 {
   flex-direction: column;
 }
 
+.header-nav ul li:hover i {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
 
 .header-nav ul li:hover ul {
   display: flex;
+
 }
 
 .header-nav ul li:hover ul li {
   display: flex;
   padding: 0 10%;
   font-size: 1.8rem;
+  justify-content: flex-end;
+
 }
 
 
