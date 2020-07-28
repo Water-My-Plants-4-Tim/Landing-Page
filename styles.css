@@ -139,6 +139,12 @@ h4 {
 
 /********** HEADER **********/
 
+header {
+  background-image: url(imgs/plant-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .header-main {
   font-size: 5rem;
   padding: 10% 0;
