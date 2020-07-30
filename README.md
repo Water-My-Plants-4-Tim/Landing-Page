@@ -12,8 +12,7 @@
     - How much water
     - When to water
     - Gamification
-    - 
-    - 
+
 - **What is the mission statement?**
     - Ensuring that all your plants are consistently watered is actually pretty difficult. Water My Plants is an app that helps to solve those problems.
     - Drunk on responsibility.
@@ -67,7 +66,8 @@
         - Flexbox
         - Font Awesome
         - 3rd party font family ([https://www.behance.net/gallery/48703299/Citrica-Typeface](https://www.behance.net/gallery/48703299/Citrica-Typeface))
-        - 
+        - Unsplash
+
     - **Front End**
         - React
         - Context API
@@ -85,8 +85,6 @@
     - Nope
 - **Have you considered using Apple Frameworks?** ***(MapKit, Healthkit, ARKit?)***
     - Never
-- 
-    - ****
 
 **Target Audience**
 
@@ -100,10 +98,10 @@
     - LAZY
     - New plant owners
     - House sitters
-    - 
+
 - **What feedback have you gotten from potential users?**
     - Scientific names
-    - 
+    
 - **How have you validated this problem and your solution with your target audience?**
     - Nope, just assumed.
 
