@@ -39,11 +39,9 @@ time, mark, audio, video {
 
 html {
   font-size: 62.5%;
-
 }
 
 body {
-
   line-height: 2;
   font-size: 2rem;
   font-family: Citrica;
@@ -54,6 +52,7 @@ body {
 a {
   text-decoration: none;
   color: #606b43;
+  text-shadow: black;
 }
 
 button:hover {
@@ -80,6 +79,11 @@ h3 {
 h4 {
   font-size: 2.5rem;
   text-align: center;
+}
+
+p {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.5rem;
 }
 
 /********** NAV BAR **********/
@@ -141,7 +145,7 @@ h4 {
 header {
   background-image: url(imgs/plant-bg.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: inherit;
 }
 
 .header-main {
@@ -161,6 +165,10 @@ header {
 
 .main-container {
   margin: 3%;
+}
+
+.main-container span {
+  font-weight: 600;
 }
 
 .text-container {
